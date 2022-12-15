@@ -1,0 +1,76 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-bg-color: #ffffff;
+    --white-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+}
+
+/* style page */
+body {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.tech-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* style list, link */
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
+    margin: 0 auto;
+}
+
+/* заховати заголовок */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}

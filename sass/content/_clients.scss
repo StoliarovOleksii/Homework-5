@@ -1,0 +1,44 @@
+/*styles clients*/
+.clients-icon-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-icon-item {
+    width: calc((100% - 150px) / 6);
+    height: 90px;
+}
+
+.clients-icon-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    &:hover,
+        &k:focus {
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4,
+                    0,
+                    0.2,
+                    1);
+            border-color: var(--accent-color);
+            fill: var(--accent-color);
+        }
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+    &:hover,
+        &:focus {
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4,
+                    0,
+                    0.2,
+                    1);
+            fill: var(--accent-color);
+        }
+}
