@@ -1,10 +1,12 @@
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero\ bg.jpg);
 }
-.hero-wrap {
+
+.hero__container {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
 }
-.hero-title {
+
+.hero__title {
     font-size: 44px;
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
@@ -15,17 +17,17 @@
     margin: auto;
     text-align: center;
     padding-top: 200px;
-
 }
-.button {
+
+.hero__button {
     text-align: center;
     padding-bottom: 200px;
     margin-top: 30px;
 }
-.style-button {
+
+.hero__text__button {
+    display: inline-block;
     font-weight: 700;
-    width: 216px;
-    height: 50px;
     font-size: 16px;
     line-height: 30px;
     color: #FFFFFF;

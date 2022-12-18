@@ -5,8 +5,6 @@
     --white-text-color: #FFFFFF;
     --accent-color: #2196F3;
 }
-
-/* style page */
 body {
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
@@ -23,8 +21,6 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
 }
 
 ul,
@@ -45,9 +41,6 @@ address {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-
-/* style list, link */
 .list {
     list-style: none;
 }
@@ -63,8 +56,6 @@ address {
     outline: 2px solid red;
     margin: 0 auto;
 }
-
-/* заховати заголовок */
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -77,14 +68,13 @@ address {
     clip-path: inset(50%);
     margin: -1px;
 }
-
-.section-title {
+.spec-title {
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
-
 .tech-section {
     padding-top: 94px;
     padding-bottom: 94px;

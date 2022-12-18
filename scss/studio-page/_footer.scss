@@ -1,5 +1,3 @@
-/* styles footer */
-
 .tech-footer {
     display: flex;
 }
@@ -29,9 +27,11 @@
     letter-spacing: 0.03em;
     color: var(--main-bg-color);
 }
+
 .footer-nav-item {
-    padding-bottom: 9px;
+    margin-top: 9px;
 }
+
 .footer-link {
     font-style: normal;
     line-height: calc(24 / 14);
@@ -53,7 +53,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 
 
 .footer-soc-icons {
@@ -100,75 +99,4 @@
             background-color: var(--accent-color);
             fill: var(--white-text-color);
         }
-}
-
-
-/* Style footer-input */
-.footer-label {
-    display: flex;
-    margin-left: 93px;
-    padding-top: 12px;
-}
-
-.footer-modal-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    color: var(--white-text-color);
-}
-
-.footer-modal-input {
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: #2F303A;
-    &::placeholder {
-            padding-left: 16px;
-        }
-}
-
-
-.footer-button {
-    display: flex;
-    align-items: center;
-    margin-top: 22px;
-}
-
-.footer-modal-button {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 50px;
-    background: var(--accent-color);
-    border-radius: 4px;
-    text-decoration-color: var(--white-text-color);
-    border: 0em;
-    background-image: url(../images/icon\ send.svg);
-    background-repeat: no-repeat;
-    background-position: 90%;
-    margin-left: 12px;
-    &:hover,
-        &:focus {
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4,
-                    0,
-                    0.2,
-                    1);
-        }
-}
-
-
-.footer-text-button {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    color: var(--white-text-color);
 }

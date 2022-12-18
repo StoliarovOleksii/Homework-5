@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,101 +12,100 @@
       rel="stylesheet">
   <link rel="stylesheet" href="./css/main.min.css" />
 </head>
-
 <body>
   <!--Шапка сайта-->
-  <header class="header test">
-    <div class="container">
-      <nav class="nav-list">
-        <a class="logo" href="./index.html"><span class="color_logo">Web</span>Studio</a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="nav-link link current">Студія</a></li>
-          <li class="item"><a href="./portfolio.html" class="nav-link link">Портфоліо</a></li>
-          <li class="item"><a href="" class="nav-link link">Контакти</a></li>
-        </ul>
-        <ul class="auth-nav list">
-          <li class="item">
-            <a class="contact-link link" href="mail:info@devstudio.com"><svg class="contact-icon" width="16"
+  <header class="header">
+    <div class="container header__container">
+        <a class="logo header__logo" href="./index.html"><span class="color_logo">Web</span>Studio</a>
+        <nav class="navigation">
+          <ul class="menu list">
+            <li class="menu__item"><a href="./index.html" class="menu__link link current">Студія</a></li>
+            <li class="menu__item"><a href="./portfolio.html" class="menu__link link">Портфоліо</a></li>
+            <li class="menu__item"><a href="" class="menu__link link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact list">
+          <li class="menu__item">
+            <a class="contact__link link" href="mail:info@devstudio.com"><svg class="contact__icon" width="16"
                 height="12">
                 <use href="./images/icon-nav.svg#icon-envelope-hover"></use>
               </svg><span>info@devstudio.com</span></a>
           </li>
-          <li class="item"><a class="contact-link link" href="tel:+380961111111"><svg class="contact-icon" width="16"
+          <li class="menu__item"><a class="contact__link link" href="tel:+380961111111"><svg class="contact__icon" width="16"
                 height="12">
                 <use href="./images/icon-nav.svg#icon-smartphone"></use>
               </svg><span>+380961111111</span></a></li>
         </ul>
-        </nav">
     </div>
   </header>
   <main>
     <!--Герой-->
     <section class="hero">
-      <div class="container hero-wrap">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <div class="button">
-          <button type="button" data-modal-open class="style-button">Замовити послугу</button>
+      <div class="container hero__container">
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="hero__button">
+          <button type="button" data-modal-open class="hero__text__button">Замовити послугу</button>
         </div>
       </div>
     </section>
     <!--Контент-->
     <section class="benefits tech-section">
-      <div class="container">
+      <div class="container benefits__container">
         <h2 class="visually-hidden">Переваги</h2>
-        <ul class="benefits-icon-list list">
-          <li class="benefits-icon-item">
-            <a href="" class="benefits-icon-link link">
+        <ul class="benefits__icon__list list">
+          <li class="benefits__icon__item">
+            <a href="" class="benefits__icon__link link">
               <svg width="70" height="70">
                 <use href="./images/icon-benefits.svg#icon-antennas"></use>
               </svg>
             </a>
           </li>
-          <li class="benefits-icon-item">
-            <a href="" class="benefits-icon-link link">
+          <li class="benefits__icon__item">
+            <a href="" class="benefits__icon__link link">
               <svg width="70" height="70">
                 <use href="./images/icon-benefits.svg#icon-astronauts"></use>
               </svg>
             </a>
           </li>
-          <li class="benefits-icon-item">
-            <a href="" class="benefits-icon-link link">
+          <li class="benefits__icon__item">
+            <a href="" class="benefits__icon__link link">
               <svg width="70" height="70" class="benefits-icon">
                 <use href="./images/icon-benefits.svg#icon-clocks"></use>
               </svg>
             </a>
           </li>
-          <li class="benefits-icon-item">
-            <a href="" class="benefits-icon-link link">
+          <li class="benefits__icon__item">
+            <a href="" class="benefits__icon__link link">
               <svg width="70" height="70">
                 <use href="./images/icon-benefits.svg#icon-diagrams"></use>
               </svg>
             </a>
           </li>
         </ul>
-        <ul class="benefits-list list">
-          <li class="benefits-item">
-            <h3 class="benefits-title">увага до деталей</h3>
-            <p class="benefits-text">
+        <ul class="benefits__list list">
+          <li class="benefits__item">
+            <h3 class="benefits__title">увага до деталей</h3>
+            <p class="benefits__text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li class="benefits-item">
-            <h3 class="benefits-title">пунктуальність</h3>
-            <p class="benefits-text">
+          <li class="benefits__item">
+            <h3 class="benefits__title">пунктуальність</h3>
+            <p class="benefits__text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li class="benefits-item">
-            <h3 class="benefits-title">планування</h3>
-            <p class="benefits-text">
+          <li class="benefits__item">
+            <h3 class="benefits__title">планування</h3>
+            <p class="benefits__text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="benefits-item">
-            <h3 class="benefits-title">сучасні технології</h3>
-            <p class="benefits-text">
+          <li class="benefits__item">
+            <h3 class="benefits__title">сучасні технології</h3>
+            <p class="benefits__text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -117,7 +115,7 @@
     </section>
     <section class="content tech-section">
       <div class="container">
-        <h2 class="section-title">Чим ми займаємося</h2>
+        <h2 class="spec-title">Чим ми займаємося</h2>
         <ul class="spec-list list">
           <li class="spec-item">
             <div class="spec-wrap">
@@ -142,7 +140,7 @@
     </section>
     <section class="team tech-section">
       <div class="container">
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="spec-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-card">
             <img src="images/img-2.jpg" alt="Продакт Дизайнер" width="270" />
@@ -290,7 +288,7 @@
   </main>
   <section class="clients tech-section">
     <div class="container">
-      <h2 class="section-title">Постійні клієнти</h2>
+      <h2 class="spec-title">Постійні клієнти</h2>
       <ul class="clients-icon-list list">
         <li class="clients-icon-item">
           <a href="" class="clients-icon-link link">
@@ -347,11 +345,11 @@
           <span class="color_logo">Web</span>Studio</a>
         <address class="address">
           <ul class="footer-nav list">
-            <li><a class="address-link link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li>
+            <li class="footer-nav-item"><a class="address-link link" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li class="footer-nav-item">
               <a class="footer-link link" href="mail:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="footer-nav-item">
               <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
